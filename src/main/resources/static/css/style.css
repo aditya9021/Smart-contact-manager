@@ -1,0 +1,101 @@
+.bg-primary{
+	background : #009699 !important;
+}
+
+.banner{
+	width:100%;
+	height:93vh;
+	background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../image/banner.jpg);
+	background-size:cover;
+	color:white;
+}
+
+.my-card{
+	padding:20px;
+	background:#CDF0EA;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 100px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #CDF0EA;
+  color : black;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+/*sidebar  */
+
+@media only screen and (max-width:600px){
+	.sidebar{
+	display:none;
+	width:80% !important;
+	background:#CDF0EA;
+	height:100vh;
+	position:fixed;
+	padding-top:20px;
+	}
+	
+	.content{
+	margin-left : 0% !important;
+	}
+}
+
+.sidebar{
+	width:18%;
+	background: #CDF0EA;
+	height:100%;
+	position:fixed;
+	padding-top:45px;
+	z-index: 9999999999999999999999999999;
+}
+
+.sidebar a{
+	display: block;
+	padding:10px 25px;
+	width:100%;
+	text-decoration: none;
+	color:grey;
+		
+}
+
+.sidebar a:hover{
+	background : white;
+	width:100%;
+}
+
+.sidebar .divider{
+	height:0.5px;
+	width:100%;
+	background:white;
+	padding-top:5px;
+}
+
+.content{
+	margin-left: 20%;
+}
+
+.sidebar .crossBtn{
+	position:absolute;
+	top:0;
+	right:35px;
+	font-size: 36px;
+	cursor:pointer;
+}
+
+/* add contact */
+
+.card{
+	border-width:2px ;
+	border-color: #009699;
+}
+
+.card-body h1{
+	color:#009699;
+}
